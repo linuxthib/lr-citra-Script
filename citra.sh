@@ -22,7 +22,7 @@ function depends_citra() {
 }
 
 function sources_citra() {
-    gitPullOrClone "$md_build" https://github.com/citra-emu/citra.git
+    gitPullOrClone "$md_build" https://github.com/SkyDragon720/citra-vulkan
 }
 
 function build_citra() {
